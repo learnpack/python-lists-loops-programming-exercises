@@ -19,5 +19,5 @@ def test_for_loop():
 def test_if():
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"if(\s)")
+        regex = re.compile(r"if")
         assert bool(regex.search(content)) == True
